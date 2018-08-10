@@ -1,0 +1,71 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'Secular One', sans-serif;
+  font-size: 3rem;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.right {
+  background-color: #00c853;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone {
+  background: transparent url(images/phone.png) center center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen {
+  background: transparent url(images/offers.png) center center no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 190px;
+  position: absolute;
+  margin-top: -5px;
+  z-index: -1;
+}
+
+.top {
+  flex: 1;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.appstore {
+  height: 50px;
+}
+
+.googleplay {
+  height: 70px;
+}
